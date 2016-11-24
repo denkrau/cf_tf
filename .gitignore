@@ -1,28 +1,18 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore debug stuff
+*.bag
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore generated docs
+*.dox
+*.wikidoc
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# qcreator stuff
+CMakeLists.txt.user
+qtcreator-*
+*.user
 
-# Fortran module files
-*.mod
+# python
+*.pcd
+*.pyc
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*~
+*autosave
